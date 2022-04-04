@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.90393b83.css","mappings":"AAAA,KACE,iBACF,CACA,IAEE,UAAW,CADX,UAEF","sources":["App.css"],"sourcesContent":[".App {\n  text-align: center;\n}\nimg {\n  width: 100%; /* ширина картинки */\n  height: 70%; /* высота картинки */\n}\n"],"names":[],"sourceRoot":""}
