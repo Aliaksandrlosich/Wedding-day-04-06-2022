@@ -1,0 +1,23 @@
+.header {
+  max-height: 10vh;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary-background-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header__link {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.header__link:hover {
+  color: var(--primary-color);
+}
+
+.active {
+  color: var(--additional-color);
+}

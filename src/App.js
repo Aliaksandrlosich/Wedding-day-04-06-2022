@@ -1,11 +1,21 @@
-import png from './oops.jpg';
-import './App.css';
+import { HashRouter } from 'react-router-dom';
+
+import Header from './components/header/index';
+import Footer from './components/footer/index';
+import Routs from './router/index'
+
+import './css/App.css';
 
 function App() {
   return (
-    <div className="App">
-     <img src={png} alt='Смешная картинка'/>
-    <p>Упсс! Подождите пожалуйста! Мы ещё не закончили настройку странички</p>
+    <div className="app">
+     <HashRouter>
+      <Header/>
+      <div className="main">
+       <Routs/>
+      </div>
+      <Footer/>
+     </HashRouter>
     </div>
   );
 }
