@@ -21,11 +21,6 @@
   display: block;
 }
 
-.contacts__panel {
-  width: 80vw;
-  margin: 0 10vw;
-}
-
 .text-stroke {
   fill: none;
   stroke: #51256f;
