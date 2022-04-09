@@ -47,7 +47,7 @@ body {
 .main {
   min-height: 84.5vh;
   height: 100%;
-  padding: 10px;
+  padding: 20px 40px;
   box-sizing: border-box;
   background-color: #AE65C8;
 }
@@ -60,4 +60,9 @@ body {
 .logo {
   width: 400px;
   height: 400px;
+}
+
+.text_highlight {
+  font-size: 20px;
+  margin-bottom: 20px;
 }

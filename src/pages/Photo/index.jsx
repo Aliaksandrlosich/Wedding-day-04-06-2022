@@ -1,5 +1,7 @@
 import png from '../../oops.jpg'
 
+import './style.css'
+
 export default function Photo () {
 
  return (
