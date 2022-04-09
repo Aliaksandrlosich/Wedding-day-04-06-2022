@@ -1,23 +1,26 @@
-import { HashRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom'
 
-import Header from './components/header/index';
-import Footer from './components/footer/index';
+import Header from './components/header/index'
+import Footer from './components/footer/index'
 import Routs from './router/index'
 
-import './css/App.css';
+import './css/App.css'
 
-function App() {
-  return (
-    <div className="app">
-     <HashRouter>
-      <Header/>
-      <div className="main">
-       <Routs/>
-      </div>
-      <Footer/>
-     </HashRouter>
+function App () {
+ return (
+  <div className="app">
+   <HashRouter>
+    <Header/>
+    <div className="parallax__wrapper">
+     <div className="parallax__img"></div>
     </div>
-  );
+    <div className="main">
+     <Routs/>
+    </div>
+    <Footer/>
+   </HashRouter>
+  </div>
+ )
 }
 
-export default App;
+export default App

@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 export default function header () {
  return (
-  <div className='header'>
+<div className='header'>
    <NavLink to='' className='header__link'>
     Главная
    </NavLink>
@@ -16,6 +16,6 @@ export default function header () {
    <NavLink to='photo' className='header__link'>
     Фото
    </NavLink>
-  </div>
+</div>
  );
 };

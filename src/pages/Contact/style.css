@@ -1,0 +1,55 @@
+.contact__number-link {
+  font-size: 38px;
+  color: var(--font-color);
+  margin: 30px 0;
+}
+
+.contact__number-label {
+  font-size: 28px;
+  color: var(--font-color);
+  margin: 30px 0;
+}
+
+.contact__text {
+  font-size: 16px;
+  text-transform: uppercase;
+  display: block;
+}
+
+.contacts__panel {
+  width: 80vw;
+  margin: 0 10vw;
+}
+
+.text-stroke {
+  fill: none;
+  stroke: #51256f;
+  stroke-width: 2.8px;
+  stroke-dashoffset: -900;
+  stroke-dasharray: 900;
+  stroke-linecap: butt;
+  stroke-linejoin: round;
+  animation: dash 2.5s ease-in-out forwards;
+}
+.text-stroke:nth-child(2) {
+  animation-delay: .3s;
+}
+.text-stroke:nth-child(3) {
+  animation-delay: .9s;
+}
+.text-stroke-2 {
+  stroke: #f6bdfa;
+  animation-delay: 1.2s;
+}
+.text-stroke:nth-child(5) {
+  animation-delay: 1.6s;
+}
+.text-stroke:nth-child(6) {
+  animation-delay: 1.8s;
+}
+
+@keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

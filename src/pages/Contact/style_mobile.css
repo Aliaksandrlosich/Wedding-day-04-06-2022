@@ -1,0 +1,15 @@
+@media (max-width: 769px) {
+  .contact__text {
+    font-size: 24px;
+    text-transform: uppercase;
+    display: block;
+  }
+
+  .contact__number-link {
+    font-size: 26px;
+  }
+
+  .contact__number-label {
+    font-size: 20px;
+  }
+}

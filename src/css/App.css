@@ -11,8 +11,8 @@
 
 img {
   width: 80%; /* ширина картинки */
-  height: 50%;
 }
+
 html,
 body {
   min-height: 100%;
@@ -25,7 +25,22 @@ body {
   min-height: 100vh;
   box-sizing: border-box;
   height: 100%;
-  background-color: var(--background-color);
+}
+
+.parallax__wrapper {
+  height: 70vh;
+}
+
+.parallax__img {
+  background-image: url('./background.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.46);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.46);
+  box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.46);
 }
 
 .main {
@@ -33,4 +48,5 @@ body {
   height: 100%;
   padding: 10px;
   box-sizing: border-box;
+  background-color: #AE65C8;
 }
