@@ -63,6 +63,7 @@ const getTimelineElements = () => timelineEvents.map(({name, time, text}) => <Ve
   contentStyle={{ background: 'rgb(238, 218, 245)', color: 'red' }}
   contentArrowStyle={{ borderRight: '7px solid  rgb(238, 218, 245)' }}
   date={time}
+  dateClassName={'additional-color'}
   iconStyle={{ background: 'rgb(238, 218, 245)', color: 'red' }}
   // icon={<WorkIcon/>}
  >

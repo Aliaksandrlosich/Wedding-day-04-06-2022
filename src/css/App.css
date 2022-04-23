@@ -67,3 +67,11 @@ body {
   font-size: 20px;
   margin-bottom: 20px;
 }
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.additional-color {
+  color: var(--additional-color);
+}

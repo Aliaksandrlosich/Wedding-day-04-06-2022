@@ -22,9 +22,6 @@
 .header__link:hover {
   color: var(--additional-color);
 }
-.primary-color {
-  color: var(--primary-color);
-}
 
 .active {
   color: var(--additional-color);
