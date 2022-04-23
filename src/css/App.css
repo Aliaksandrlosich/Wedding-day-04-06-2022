@@ -35,6 +35,7 @@ body {
 .parallax__img {
   background-image: url('./background.jpg');
   height: 100%;
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
