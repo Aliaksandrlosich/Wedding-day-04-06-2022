@@ -1,0 +1,22 @@
+.photo {
+  width: 400px;
+  height: 600px;
+}
+
+.photo-page__text {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.photo__link {
+  font-size: 24px;
+  color: black;
+  margin: 30px 0;
+  transition: .5s ease-in-out;
+}
+
+
+
+.photo__link:hover {
+  color: var(--additional-color);
+}
