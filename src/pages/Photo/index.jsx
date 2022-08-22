@@ -1,7 +1,7 @@
 import PromoText from '../../components/promoText'
 
 import './style.css'
-import photo from '../../css/photo.jpg'
+import photo from '../../css/photo_wedding.jpg'
 
 export default function Photo () {
 
@@ -14,9 +14,9 @@ export default function Photo () {
      <p className='photo-page__text'>На свадьбе, будет работать профессиональный фотограф. Так же, будет фотозона в
       банкетном дворике.</p>
      <p className='photo-page__text'>Фотографии будут через пару месяцев, после свадьбы. </p>
-     <p className='photo-page__text'>Храниться будут на гугл диске. Каждый желающий, сможет найти себя, и скачать
+     <p className='photo-page__text'>Храниться будут на диске. Каждый желающий, сможет найти себя, и скачать
       фото. Даже не нужно будет идти к нам в гости, что бы посмотреть!)</p>
-     <a className='photo__link' href=''>Пока ссылка недоступна!</a>
+     <a className='photo__link' href='https://disk.yandex.by/d/KjYUU-pltn1MVg' target="_blank">Ссылка на фотографии</a>
     </div>
     <img className='photo' src={photo} alt="Photo"/>
    </div>
