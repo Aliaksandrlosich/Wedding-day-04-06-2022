@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/WeddingDay04-06-2022/static/css/main.bcac5fcc.css",
-    "main.js": "/WeddingDay04-06-2022/static/js/main.d228e74c.js",
-    "static/media/photo.jpg": "/WeddingDay04-06-2022/static/media/photo.231e0882706cad8d4e32.jpg",
+    "main.css": "/WeddingDay04-06-2022/static/css/main.408ed673.css",
+    "main.js": "/WeddingDay04-06-2022/static/js/main.25e18ca3.js",
+    "static/media/photo_wedding.jpg": "/WeddingDay04-06-2022/static/media/photo_wedding.216ba66f37de15de4064.jpg",
     "static/media/oops.jpg": "/WeddingDay04-06-2022/static/media/oops.a32f3c9919ccc0c8058f.jpg",
     "static/media/logo.png": "/WeddingDay04-06-2022/static/media/logo.7d22f871c2c8a1b6a0dc.png",
     "static/media/background.jpg": "/WeddingDay04-06-2022/static/media/background.a54947bc40e57f0cad47.jpg",
     "index.html": "/WeddingDay04-06-2022/index.html",
-    "main.bcac5fcc.css.map": "/WeddingDay04-06-2022/static/css/main.bcac5fcc.css.map",
-    "main.d228e74c.js.map": "/WeddingDay04-06-2022/static/js/main.d228e74c.js.map"
+    "main.408ed673.css.map": "/WeddingDay04-06-2022/static/css/main.408ed673.css.map",
+    "main.25e18ca3.js.map": "/WeddingDay04-06-2022/static/js/main.25e18ca3.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcac5fcc.css",
-    "static/js/main.d228e74c.js"
+    "static/css/main.408ed673.css",
+    "static/js/main.25e18ca3.js"
   ]
 }
